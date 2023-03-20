@@ -1,0 +1,135 @@
+*{
+  margin: 0px;
+  padding: 0px; 
+}
+body,html{
+    height: 100%;
+}
+.gorsel{
+    height: 100%;
+    background-color: lightblue;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+nav{
+    position: absolute;
+    background-color:;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 140px;
+}
+
+nav a{
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 12px 50px;
+}
+
+
+
+
+nav a:hover{
+    background-color: #363636;
+    transition: 1s;
+
+}
+
+.bant{
+    height: 50%;
+    background-color: lightgreen;
+}
+
+#gor1{
+    background-image:url("5.JPG"););
+  
+}
+
+
+#gor2{
+    background-image: url("2.JPG");
+}
+
+#gor3{
+    background-image: url("3.JPG");
+}
+.anaSayfa{
+    position: absolut;
+    float: left;
+}
+.anaYazi{
+width: 100%;
+height: 100%;
+margin-top: 400px;
+z-index: 1;
+text-align: center;
+
+}
+
+
+
+
+.anaFiltre{
+    width: 100%;
+    height: 100%;
+    background-color: #000);
+    opacity: 0.44;
+    z-index: 0;
+}
+.anaYazi h1{
+    font-size: 70px;
+    color: rgb(231, 148, 40);;
+    margin-bottom: 20px;
+
+}
+
+.anaYazi p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    margin-bottom: 40px;
+}
+.anaYazi span{
+    color: #FFF;
+    padding: 10px 10px;
+    font-size: 19px;
+    background-color: #e47207;
+    border: 1px solid rgb(192, 71, 152);
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+.anaYazi span:hover{
+    background-color: #FFF;
+    color: rgb(158, 71, 135);
+    cursor: pointer;
+
+}
+
+body {
+    background-color: #000;
+    opacity: 0.9;
+  }
+
+button{
+    
+    width: 200px;
+    color: #FFF;
+    padding: 15px 0px;
+    font-size: 19px;
+    background-color: #4d4a47;
+    border: 1px solid rgb(148, 105, 48);
+    border-radius: 15px;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;   
+    text-align: center ;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e47207;
+    transition: 1s;
+}
